@@ -1,0 +1,146 @@
+* {box-sizing: border-box}
+
+/* Style the tab */
+body {
+    background-image: url('logo.mobil.jpeg');
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+/*Navigasi kanan*/
+.tab {
+float: right;
+border: 1px solid #ccc;
+background-color: #333;
+width: 20%;
+height: 560px;
+}
+
+.tab button {
+display: block;
+background-color: inherit;
+color: white;
+padding: 22px 16px;
+width: 100%;
+border: none;
+outline: none;
+text-align: left;
+cursor: pointer;
+transition: 0.3s;
+font-size: 17px;
+}
+
+
+.tab button:hover {
+background-color: #ddd;
+}
+
+
+.tab button.active {
+background-color: gold;
+}
+
+
+.tabcontent {
+float: left;
+padding: 0px 12px;
+width: 70%;
+border-left: none;
+height: 300px;
+}
+
+#London{
+  margin-top: 10%;
+}
+
+#Paris{
+  margin-top: 10%;
+}
+
+#Tokyo{
+  margin-top: 10%;
+}
+
+/*Navigasi atas*/
+.topnav {
+overflow: hidden;
+background-color: #333;
+display: flex;
+}
+
+.topnav a {
+float: right;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+color: black;
+}
+
+.image{
+  margin-left: 5%;
+  margin-top: 4px;
+}
+
+.topnav a.active {
+color: white;
+}
+.intopnav {
+  margin-left: 50%;
+}
+
+/*GALERI*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#footer {
+   padding-top: 10px;
+   color: white;
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   background:black ;
+  opacity: 0.6;
+}
